@@ -95,7 +95,7 @@
 										required
 										data-valueMissing-message="Please enter your email."
 										aria-describedby="usernameError"
-										value="[[]]"
+										value=""
 								Required/>
 							</div>
 							<p id="usernameError" class="body4 error-message hidden"></p>
